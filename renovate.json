@@ -1,28 +1,28 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-
-  "extends": ["config:base"],
-
+  "extends": [
+    "config:recommended"
+  ],
   "timezone": "America/New_York",
-
   "schedule": [
     "* 0 * * 5"
   ],
-
   "prConcurrentLimit": 4,
   "prHourlyLimit": 4,
   "branchConcurrentLimit": 3,
-
   "dependencyDashboard": true,
-
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor"],
+      "matchUpdateTypes": [
+        "minor"
+      ],
       "groupName": "minor-updates-batch",
       "groupSlug": "minor-batch"
     },
     {
-      "matchUpdateTypes": ["major"]
+      "matchUpdateTypes": [
+        "major"
+      ]
     }
   ]
 }
