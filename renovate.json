@@ -30,10 +30,6 @@
     {
       "matchPackagePatterns": ["mapstruct","h2"],
       "enabled": false
-    },
-    {
-      "matchPackagePatterns": ["org.springframework"],
-      "enabled": false
     }
   ]
 }
