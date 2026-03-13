@@ -6,7 +6,7 @@
   "timezone": "America/New_York",
 
   "schedule": [
-    "28 23 * * 4"
+    "* 23 * * 4"
   ],
 
   "prConcurrentLimit": 4,
@@ -22,8 +22,7 @@
       "groupSlug": "minor-batch"
     },
     {
-      "matchUpdateTypes": ["major"],
-      "separateMajorMinor": true
+      "matchUpdateTypes": ["major"]
     }
   ]
 }
