@@ -18,7 +18,7 @@
 		<mapstruct.version>1.6.2</mapstruct.version>
 		<lombok-version>1.18.42</lombok-version>
 		<lombok-mapstruct-binding.version>0.2.0</lombok-mapstruct-binding.version>
-		<h2.version>2.4.232</h2.version>
+		<h2.version>2.4.240</h2.version>
 	</properties>
 	<dependencies>
 		<dependency>
