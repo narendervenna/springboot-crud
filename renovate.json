@@ -28,7 +28,7 @@
       "matchUpdateTypes": ["major"]
     },
     {
-      "matchPackagePatterns": ["mapstruct","h2"],
+      "matchPackagePatterns": ["mapstruct"],
       "enabled": false
     }
   ]
