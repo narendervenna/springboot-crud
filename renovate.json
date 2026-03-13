@@ -1,14 +1,20 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
   "extends": ["config:base"],
+
   "timezone": "America/New_York",
 
   "schedule": [
-    "26 23 * * 4"
+    "28 23 * * 4"
   ],
 
   "prConcurrentLimit": 4,
   "prHourlyLimit": 4,
+  "branchConcurrentLimit": 3,
+
+  "dependencyDashboard": true,
+
   "packageRules": [
     {
       "matchUpdateTypes": ["minor"],
@@ -17,12 +23,7 @@
     },
     {
       "matchUpdateTypes": ["major"],
-      "separateMajorMinor": true,
-      "groupName": null
+      "separateMajorMinor": true
     }
-  ],
-
-  "branchConcurrentLimit": 3,
-  "dependencyDashboard": true
-
+  ]
 }
