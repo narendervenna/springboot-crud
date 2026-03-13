@@ -12,7 +12,7 @@
   ],
 
   "prConcurrentLimit": 4,
-  "prHourlyLimit": 10,
+  "prHourlyLimit": 20,
   "branchConcurrentLimit": 3,
 
   "dependencyDashboard": true,
@@ -27,7 +27,7 @@
       "matchUpdateTypes": ["major"]
     },
     {
-      "matchPackageNames": ["mapstruct*"],
+      "matchPackagePatterns": ["mapstruct","h2"],
       "enabled": false
     }
   ]
