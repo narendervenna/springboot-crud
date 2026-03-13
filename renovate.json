@@ -25,6 +25,10 @@
     },
     {
       "matchUpdateTypes": ["major"]
+    },
+    {
+      "matchPackageNames": ["mapstruct*"],
+      "enabled": false
     }
   ]
 }
