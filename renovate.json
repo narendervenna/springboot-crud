@@ -7,7 +7,8 @@
 
 
     "schedule": [
-      "* 17 * * 5"
+      "* 17 * * 5",
+      "* 17 * * 6"
 
   ],
 
@@ -28,6 +29,10 @@
     },
     {
       "matchPackagePatterns": ["mapstruct","h2"],
+      "enabled": false
+    },
+    {
+      "matchPackagePatterns": ["org.springframework"],
       "enabled": false
     }
   ]
