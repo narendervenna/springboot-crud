@@ -7,16 +7,13 @@
 
 
     "schedule": [
-      "* 20 * * 5",
-      "* 20 * * 6"
+      "0 20 * * 5",
+      "0 20 * * 6"
 
   ],
 
   "prConcurrentLimit": 4,
   "prHourlyLimit": 34,
-  "branchConcurrentLimit": 3,
-
-  "dependencyDashboard": true,
 
   "packageRules": [
     {
