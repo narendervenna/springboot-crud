@@ -1,19 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-
-
-
   "timezone": "GMT",
-  "dependencyDashboard": true,
   "schedule": [
-      "* 20 * * 5",
-      "* 20 * * 6"
+      "0 20 * * 5",
+      "0 20 * * 6"
 
   ],
-
   "prConcurrentLimit": 4,
   "prHourlyLimit": 34,
-
   "packageRules": [
     {
       "matchPackagePatterns": ["h2"],
