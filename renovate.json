@@ -28,11 +28,11 @@
       "matchUpdateTypes": ["major"]
     },
     {
-      "matchPackagePatterns": ["h2"],
+      "matchPackagePatterns": ["processor","h2"],
       "enabled": false
     },
     {
-      "matchPackagePatterns": ["org.springframework"],
+      "matchPackagePatterns": ["framework"],
       "enabled": false
     }
   ]
