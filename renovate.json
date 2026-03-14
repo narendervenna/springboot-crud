@@ -2,8 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "timezone": "GMT",
   "schedule": [
-      "0 20 * * 5",
-      "0 20 * * 6"
+      "* 20 * * 5",
+      "* 20 * * 6"
 
   ],
   "prConcurrentLimit": 4,
