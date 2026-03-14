@@ -4,9 +4,8 @@
 
 
   "timezone": "GMT",
-
-
-    "schedule": [
+  "dependencyDashboard": true,
+  "schedule": [
       "* 20 * * 5",
       "* 20 * * 6"
 
