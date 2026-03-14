@@ -3,17 +3,17 @@
 
 
 
-  "timezone": "America/New_York",
+  "timezone": "GMT",
 
 
     "schedule": [
-      "* 15 * * 5",
-      "* 15 * * 6"
+      "* 19 * * 5",
+      "* 19 * * 6"
 
   ],
 
   "prConcurrentLimit": 4,
-  "prHourlyLimit": 20,
+  "prHourlyLimit": 30,
   "branchConcurrentLimit": 3,
 
   "dependencyDashboard": true,
@@ -28,7 +28,7 @@
       "matchUpdateTypes": ["major"]
     },
     {
-      "matchPackagePatterns": ["processor","h2"],
+      "matchPackagePatterns": ["h2"],
       "enabled": false
     },
     {
