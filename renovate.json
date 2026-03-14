@@ -7,8 +7,8 @@
 
 
     "schedule": [
-      "* 19 * * 5",
-      "* 19 * * 6"
+      "* 20 * * 5",
+      "* 20 * * 6"
 
   ],
 
@@ -28,11 +28,11 @@
       "matchUpdateTypes": ["major"]
     },
     {
-      "matchPackagePatterns": ["h2"],
+      "matchPackagePatterns": ["binding","h2"],
       "enabled": false
     },
     {
-      "matchPackagePatterns": ["framework"],
+      "matchPackagePatterns": [""],
       "enabled": false
     }
   ]
