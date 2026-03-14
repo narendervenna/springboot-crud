@@ -13,26 +13,14 @@
   ],
 
   "prConcurrentLimit": 4,
-  "prHourlyLimit": 30,
+  "prHourlyLimit": 34,
   "branchConcurrentLimit": 3,
 
   "dependencyDashboard": true,
 
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor"],
-      "groupName": "minor-updates-batch",
-      "groupSlug": "minor-batch"
-    },
-    {
-      "matchUpdateTypes": ["major"]
-    },
-    {
       "matchPackagePatterns": ["binding","h2"],
-      "enabled": false
-    },
-    {
-      "matchPackagePatterns": [""],
       "enabled": false
     }
   ]
