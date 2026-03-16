@@ -1,11 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "timezone": "GMT",
+  "timezone": "UTC",
   "schedule": [
-      "* 20 * * 5",
-      "* 20 * * 6"
+      "* 0 * * 1",
+      "* 0 * * 2"
 
   ],
+  "dependencyDashboard": true,
   "prConcurrentLimit": 4,
   "prHourlyLimit": 34,
   "packageRules": [
